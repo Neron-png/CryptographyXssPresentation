@@ -42,9 +42,6 @@ def new_comment():
 
     return {"":""}
 
-# @app.route("/", methods=["POST"])
-# def search():
-#     return render_template('index.html', test="Hello World")
 
 app.run(host="localhost", port=5000, debug=False)
 
